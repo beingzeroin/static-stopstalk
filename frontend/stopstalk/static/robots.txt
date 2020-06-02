@@ -1,0 +1,21 @@
+#Baiduspider
+User-agent: Baiduspider
+Disallow: /
+
+#Yandex
+User-agent: Yandex
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: *
+Crawl-delay: 20
+Disallow: /static/scripts/
+Disallow: /static/images/gifs/
+Disallow: /static/svg/
+Disallow: /xmlrpc.php
+Disallow: /appadmin
+Disallow: /static/js/*.js
+Disallow: /static/css/*.css
+Disallow: /*.json*
