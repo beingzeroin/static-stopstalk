@@ -8,5 +8,6 @@ app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.static('frontend'))
 app.get('/', (req, res) => res.render('index'))
+app.get('/profile', (req, res) => res.render('profile'))
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
